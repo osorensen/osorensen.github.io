@@ -1,18 +1,18 @@
 ---
-title: "The Finer Points of Sausage Dogs" 
-date: 2004-12-28
+title: "Covariate Selection in High-Dimensional Generalized Linear Models With Measurement Error" 
+date: 2018-06-01
 lastmod: 2024-07-12
-tags: ["zoology","sausage dogs","canine pulmonary efficiency","canine science","experimental zoology"]
-author: ["Florianus Prinzel", "Moritz-Maria von Igelfeld"]
-description: "This paper studies the pulmonary efficiency of sausage dogs. Published in the Journal of Canine Science, 2004." 
-summary: "This paper studies the pulmonary efficiency of sausage dogs through several experiments." 
+tags: ["lasso","Dantzig selector","measurement error","hdme"]
+author: ["Øystein Sørensen", "Kristoffer Herland Hellton", "Arnoldo Frigessi", "Magne Thoresen"]
+description: "This paper proposes an extension of the generalized Dantzig selector for cases with measurement error in the predictor variables." 
+summary: "The matrix uncertainty selector is a modification of the Dantzig selector, for the case of variable selection with noisy predictors. In this paper we extend the matrix uncertainty selector to the generalized linear model case, and propose a computationally efficient computational algorithm. Compared to other methods that correct for the effect of measurement error, the matrix uncertainty selector and its extension do not require a precise estimate of the noise variance, which is an advantage in practical use. Published in Journal of Computational and Graphical Statistics."
 cover:
     image: "paper2.png"
-    alt: "Dimensions of a sausage dog"
+    
     relative: false
 editPost:
-    URL: "https://github.com/pmichaillat/hugo-website"
-    Text: "Journal of Canine Science"
+    URL: "https://doi.org/10.1080/10618600.2018.1425626"
+    Text: "Journal of Computational and Graphical Statistics"
 
 ---
 
@@ -20,19 +20,19 @@ editPost:
 
 ##### Download
 
-+ [Paper](paper2.pdf)
-+ [Online appendix](appendix2.pdf)
-+ [Code and data](https://github.com/pmichaillat/wunk)
++ [Paper](https://doi.org/10.1080/10618600.2018.1425626)
 
 ---
 
 ##### Abstract
 
-This paper studies the pulmonary efficiency of sausage dogs. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur: $\sin(\theta) = x^2 - \exp(1+\chi)$. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor $\zeta$ incididunt ut labore et dolore magna aliqua: $p(x) = \int \cos(\zeta) d\zeta - \theta$. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+In many problems involving generalized linear models, the covariates are subject to measurement error. When the number of covariates $p$ exceeds the sample size $n$, regularized methods like the lasso or Dantzig selector are required. Several recent papers have studied methods which correct for measurement error in the lasso or Dantzig selector for linear models in the $p > n$ setting. We study a correction for generalized linear models, based on Rosenbaum and Tsybakov’s matrix uncertainty selector. By not requiring an estimate of the measurement error covariance matrix, this generalized matrix uncertainty selector has a great practical advantage in problems involving high-dimensional data. We further derive an alternative method based on the lasso, and develop efficient algorithms for both methods. In our simulation studies of logistic and Poisson regression with measurement error, the proposed methods outperform the standard lasso and Dantzig selector with respect to covariate selection, by reducing the number of false positives considerably. We also consider classification of patients on the basis of gene expression data with noisy measurements. Supplementary materials for this article are available online.
 
 ---
 
-##### Figure 2: Dimensions of a sausage dog
+##### Figure 2
+
+Left: elbow rule with logistic regression. The average number of nonzero coefficients is plotted against δ. Right: elbow rule for the BMD example.
 
 ![](paper2.png)
 
@@ -40,23 +40,28 @@ This paper studies the pulmonary efficiency of sausage dogs. Lorem ipsum dolor s
 
 ##### Citation
 
-Prinzel, Florianus, and Moritz-Maria von Igelfeld. 2004. "The Finer Points of Sausage Dogs." *Journal of Canine Science* 43 (2): 89–109. http://www.alexandermccallsmith.com/book/the-finer-points-of-sausage-dogs.
+Sørensen, Ø., Hellton, K. H., Frigessi, A., & Thoresen, M. (2018). Covariate Selection in High-Dimensional Generalized Linear Models With Measurement Error. Journal of Computational and Graphical Statistics, 27(4), 739–749. https://doi.org/10.1080/10618600.2018.1425626
+
 
 ```BibTeX
-@article{PI04,
-author = {Florianus Prinzel and Moritz-Maria von Igelfeld},
-year = {2004},
-title ={The Finer Points of Sausage Dogs},
-journal = {Journal of Canine Science},
-volume = {43},
-number = {2},
-pages = {89--109},
-url = {http://www.alexandermccallsmith.com/book/the-finer-points-of-sausage-dogs}}
+@article{Srensen2018,
+  title = {Covariate Selection in High-Dimensional Generalized Linear Models With Measurement Error},
+  volume = {27},
+  ISSN = {1537-2715},
+  url = {http://dx.doi.org/10.1080/10618600.2018.1425626},
+  DOI = {10.1080/10618600.2018.1425626},
+  number = {4},
+  journal = {Journal of Computational and Graphical Statistics},
+  publisher = {Informa UK Limited},
+  author = {Sørensen,  Øystein and Hellton,  Kristoffer Herland and Frigessi,  Arnoldo and Thoresen,  Magne},
+  year = {2018},
+  month = jun,
+  pages = {739–749}
+}
 ```
 
 ---
 
 ##### Related material
 
-+ [Presentation slides](presentation2.pdf)
-+ [Wikipedia entry](https://en.wikipedia.org/wiki/The_Finer_Points_of_Sausage_Dogs)
++ [R package implementing the methods](https://cran.r-project.org/package=hdme)

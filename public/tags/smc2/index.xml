@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>SMC$^{2}$ on Øystein Sørensen</title>
+    <link>http://localhost:1313/tags/smc2/</link>
+    <description>Recent content in SMC$^{2}$ on Øystein Sørensen</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 12 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/smc2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sequential Rank and Preference Learning with the Bayesian Mallows Model</title>
+      <link>http://localhost:1313/papers/paper11/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papers/paper11/</guid>
+      <description>This paper considers rank and preference modeling for the case in which data arrive sequentially, rather than in a batch. The goal is to compute the posterior distribution incrementally in time, so that it can be quickly updated when new data arrives. To this end, we develop a sequential Monte Carlo algorithm for the Bayesian Mallows model. arXiv preprint currently under revision.</description>
+    </item>
+  </channel>
+</rss>

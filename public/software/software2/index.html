@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>BayesMallows: Bayesian Preference Learning with the Mallows Rank Model | Øystein Sørensen</title>
+<meta name="keywords" content="Mallows model, R, BayesMallows, rankings, preferences">
+<meta name="description" content="This R package contains functions for estimating the Bayesian Mallows model in a wide range of situation, using the Metropolis-Hastings algorithm.">
+<meta name="author" content="Øystein Sørensen,&thinsp;Waldir Leoncio Netto,&thinsp;Valeria Vitelli,&thinsp;Marta Crispino,&thinsp;et al.">
+<link rel="canonical" href="http://localhost:1313/software/software2/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.e690afcd5c523330d5c8b4d746eb158361600a015e99518d4d246a6ccab0cc19.css" integrity="sha256-5pCvzVxSMzDVyLTXRusVg2FgCgFemVGNTSRqbMqwzBk=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/software/software2/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><meta property="og:title" content="BayesMallows: Bayesian Preference Learning with the Mallows Rank Model" />
+<meta property="og:description" content="This R package contains functions for estimating the Bayesian Mallows model in a wide range of situation, using the Metropolis-Hastings algorithm." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/software/software2/" /><meta property="article:section" content="software" />
+<meta property="article:published_time" content="2018-10-01T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-05-08T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="BayesMallows: Bayesian Preference Learning with the Mallows Rank Model"/>
+<meta name="twitter:description" content="This R package contains functions for estimating the Bayesian Mallows model in a wide range of situation, using the Metropolis-Hastings algorithm."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Software",
+      "item": "http://localhost:1313/software/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "BayesMallows: Bayesian Preference Learning with the Mallows Rank Model",
+      "item": "http://localhost:1313/software/software2/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "BayesMallows: Bayesian Preference Learning with the Mallows Rank Model",
+  "name": "BayesMallows: Bayesian Preference Learning with the Mallows Rank Model",
+  "description": "This R package contains functions for estimating the Bayesian Mallows model in a wide range of situation, using the Metropolis-Hastings algorithm.",
+  "keywords": [
+    "Mallows model", "R", "BayesMallows", "rankings", "preferences"
+  ],
+  "articleBody": "Description An implementation of the Bayesian version of the Mallows rank model (Vitelli et al., Journal of Machine Learning Research, 2018 https://jmlr.org/papers/v18/15-481.html; Crispino et al., Annals of Applied Statistics, 2019 doi:10.1214/18-AOAS1203; Sorensen et al., R Journal, 2020 doi:10.32614/RJ-2020-026; Stein, PhD Thesis, 2023 https://eprints.lancs.ac.uk/id/eprint/195759). Both Metropolis-Hastings and sequential Monte Carlo algorithms for estimating the models are available. Cayley, footrule, Hamming, Kendall, Spearman, and Ulam distances are supported in the models. The rank data to be analyzed can be in the form of complete rankings, top-k rankings, partially missing rankings, as well as consistent and inconsistent pairwise preferences. Several functions for plotting and studying the posterior distributions of parameters are provided. The package also provides functions for estimating the partition function (normalizing constant) of the Mallows rank model, both with the importance sampling algorithm of Vitelli et al. and asymptotic approximation with the IPFP algorithm (Mukherjee, Annals of Statistics, 2016 doi:10.1214/15-AOS1389).\nBackground For more background, see the original paper on the Bayesian Mallows model and the software paper.\n",
+  "wordCount" : "166",
+  "inLanguage": "en",
+  "datePublished": "2018-10-01T00:00:00Z",
+  "dateModified": "2024-05-08T00:00:00Z",
+  "author":[{
+    "@type": "Person",
+    "name": "Øystein Sørensen"
+  }, {
+    "@type": "Person",
+    "name": "Waldir Leoncio Netto"
+  }, {
+    "@type": "Person",
+    "name": "Valeria Vitelli"
+  }, {
+    "@type": "Person",
+    "name": "Marta Crispino"
+  }, {
+    "@type": "Person",
+    "name": "et al."
+  }],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/software/software2/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Øystein Sørensen",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" integrity="sha384-wcIxkf4k558AjM3Yz3BBFQUbk/zgIYC2R0QpeeYb+TwlBVMrlgLqwRjRtGZiK7ww" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js" integrity="sha384-hIoBPJpTUs74ddyc4bFZSM1TVlQDA60VBbJS0oA934VSz82sBx1X7kSx2ATBDIyd" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js" integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk" crossorigin="anonymous"
+  onload="renderMathInElement(document.body);"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false},
+            {left: "\\begin{equation}", right: "\\end{equation}", display: true},
+            {left: "\\begin{equation*}", right: "\\end{equation*}", display: true},
+            {left: "\\begin{align}", right: "\\end{align}", display: true},
+            {left: "\\begin{align*}", right: "\\end{align*}", display: true},
+            {left: "\\begin{alignat}", right: "\\end{alignat}", display: true},
+            {left: "\\begin{gather}", right: "\\end{gather}", display: true},
+            {left: "\\begin{CD}", right: "\\end{CD}", display: true},
+          ],
+          throwOnError : false
+        });
+    });
+</script>
+ 
+
+
+</head>
+
+<body class="" id="top">
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Øystein Sørensen">
+                <img src="http://localhost:1313/favicon.ico" alt="" aria-label="logo"
+                    height="18"
+                    width="18">Øystein Sørensen</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/papers/" title="Papers">
+                    <span>Papers</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/software/" title="Software">
+                    <span>Software</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/courses/" title="Courses">
+                    <span>Courses</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      BayesMallows: Bayesian Preference Learning with the Mallows Rank Model
+    </h1>
+    <div class="post-meta"><span title='2018-10-01 00:00:00 +0000 UTC'>October 2018</span>&nbsp;&middot;&nbsp;Øystein Sørensen,&thinsp;Waldir Leoncio Netto,&thinsp;Valeria Vitelli,&thinsp;Marta Crispino,&thinsp;et al.&nbsp;&middot;&nbsp;<a href="https://cran.r-project.org/package=BayesMallows" rel="noopener noreferrer" target="_blank">R package on CRAN</a>
+
+</div>
+  </header> 
+  <div class="post-content"><h4 id="description">Description<a hidden class="anchor" aria-hidden="true" href="#description">#</a></h4>
+<p>An implementation of the Bayesian version of the Mallows rank model (Vitelli et al., Journal of Machine Learning Research, 2018 <a href="https://jmlr.org/papers/v18/15-481.html" target="_blank">https://jmlr.org/papers/v18/15-481.html</a>; Crispino et al., Annals of Applied Statistics, 2019 <a href="doi:10.1214/18-AOAS1203">doi:10.1214/18-AOAS1203</a>; Sorensen et al., R Journal, 2020 <a href="doi:10.32614/RJ-2020-026">doi:10.32614/RJ-2020-026</a>; Stein, PhD Thesis, 2023 <a href="https://eprints.lancs.ac.uk/id/eprint/195759" target="_blank">https://eprints.lancs.ac.uk/id/eprint/195759</a>). Both Metropolis-Hastings and sequential Monte Carlo algorithms for estimating the models are available. Cayley, footrule, Hamming, Kendall, Spearman, and Ulam distances are supported in the models. The rank data to be analyzed can be in the form of complete rankings, top-k rankings, partially missing rankings, as well as consistent and inconsistent pairwise preferences. Several functions for plotting and studying the posterior distributions of parameters are provided. The package also provides functions for estimating the partition function (normalizing constant) of the Mallows rank model, both with the importance sampling algorithm of Vitelli et al. and asymptotic approximation with the IPFP algorithm (Mukherjee, Annals of Statistics, 2016 <a href="doi:10.1214/15-AOS1389">doi:10.1214/15-AOS1389</a>).</p>
+<hr>
+<h4 id="background">Background<a hidden class="anchor" aria-hidden="true" href="#background">#</a></h4>
+<p>For more background, see the <a href="../../papers/paper3">original paper on the Bayesian Mallows model</a> and the <a href="../../papers/paper5">software paper</a>.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/mallows-model/">Mallows Model</a></li>
+      <li><a href="http://localhost:1313/tags/r/">R</a></li>
+      <li><a href="http://localhost:1313/tags/bayesmallows/">BayesMallows</a></li>
+      <li><a href="http://localhost:1313/tags/rankings/">Rankings</a></li>
+      <li><a href="http://localhost:1313/tags/preferences/">Preferences</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2025 <a href="http://localhost:1313/">Øystein Sørensen</a></span> ·     
+    <span>
+    Powered by 
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/pmichaillat/hugo-website/" rel="noopener" target="_blank">a modified version</a>
+         of 
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+</html>

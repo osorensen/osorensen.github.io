@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Preferences on Øystein Sørensen</title>
+    <link>http://localhost:1313/tags/preferences/</link>
+    <description>Recent content in Preferences on Øystein Sørensen</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 12 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/preferences/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BayesMallows: An R Package for the Bayesian Mallows Model</title>
+      <link>http://localhost:1313/papers/paper5/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papers/paper5/</guid>
+      <description>This paper presents the BayesMallows R package, for analysis of rank and preference data. Published in the R Journal.</description>
+    </item>
+    <item>
+      <title>BayesMallows: Bayesian Preference Learning with the Mallows Rank Model</title>
+      <link>http://localhost:1313/software/software2/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/software/software2/</guid>
+      <description>This R package contains functions for estimating the Bayesian Mallows model in a wide range of situation, using the Metropolis-Hastings algorithm.</description>
+    </item>
+  </channel>
+</rss>
