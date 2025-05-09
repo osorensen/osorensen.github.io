@@ -2,129 +2,129 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Øystein Sørensen</title>
-    <link>http://localhost:1313/</link>
+    <link>https://osorensen.github.io/</link>
     <description>Recent content on Øystein Sørensen</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <lastBuildDate>Fri, 18 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://osorensen.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Modeling Cycles, Trends and Time-Varying Effects in Dynamic Structural Equation Models with Regression Splines</title>
-      <link>http://localhost:1313/papers/paper12/</link>
+      <link>https://osorensen.github.io/papers/paper12/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/papers/paper12/</guid>
+      <guid>https://osorensen.github.io/papers/paper12/</guid>
       <description>This paper considers rank and preference modeling for the case in which data arrive sequentially, rather than in a batch. The goal is to compute the posterior distribution incrementally in time, so that it can be quickly updated when new data arrives. To this end, we develop a sequential Monte Carlo algorithm for the Bayesian Mallows model. arXiv preprint currently under revision.</description>
     </item>
     <item>
       <title>Sequential Rank and Preference Learning with the Bayesian Mallows Model</title>
-      <link>http://localhost:1313/papers/paper11/</link>
+      <link>https://osorensen.github.io/papers/paper11/</link>
       <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/papers/paper11/</guid>
+      <guid>https://osorensen.github.io/papers/paper11/</guid>
       <description>This paper considers rank and preference modeling for the case in which data arrive sequentially, rather than in a batch. The goal is to compute the posterior distribution incrementally in time, so that it can be quickly updated when new data arrives. To this end, we develop a sequential Monte Carlo algorithm for the Bayesian Mallows model. arXiv preprint currently under revision.</description>
     </item>
     <item>
       <title>Multilevel Semiparametric Latent Variable Modeling in R with &#34;galamm&#34;</title>
-      <link>http://localhost:1313/papers/paper10/</link>
+      <link>https://osorensen.github.io/papers/paper10/</link>
       <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/papers/paper10/</guid>
+      <guid>https://osorensen.github.io/papers/paper10/</guid>
       <description>This paper presents the R package &amp;#34;galamm&amp;#34;, which contains open-source implementations for generalized additive latent and mixed models (GALAMMs). Published in Multivariate Behavioral Research.</description>
     </item>
     <item>
       <title>galamm - Generalized Additive Latent and Mixed Models</title>
-      <link>http://localhost:1313/software/software1/</link>
+      <link>https://osorensen.github.io/software/software1/</link>
       <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/software/software1/</guid>
+      <guid>https://osorensen.github.io/software/software1/</guid>
       <description>This R package contains functions for estimating generalized additive latent and mixed models.</description>
     </item>
     <item>
       <title>Longitudinal Modeling of Age-Dependent Latent Traits with Generalized Additive Latent and Mixed Models</title>
-      <link>http://localhost:1313/papers/paper9/</link>
+      <link>https://osorensen.github.io/papers/paper9/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/papers/paper9/</guid>
+      <guid>https://osorensen.github.io/papers/paper9/</guid>
       <description>This paper was motivated by the need to use flexible spline models to model how cognitive abilities change with age, and investigating how changes in abilities in certain cognitive domains can be explained by changes in the brain. To this end we developed a framework called Generalized Additive Latent and Mixed Models (GALAMM), combining generalized additive mixed models, structural equation modeling, and mxied effect modeling. We also propose algorithms for estimating the models, using sparse matrix methods and automatic differentation. Published in Psychometrika.</description>
     </item>
     <item>
       <title>A recipe for accurate estimation of lifespan brain trajectories, distinguishing longitudinal and cohort effects</title>
-      <link>http://localhost:1313/papers/paper8/</link>
+      <link>https://osorensen.github.io/papers/paper8/</link>
       <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/papers/paper8/</guid>
+      <guid>https://osorensen.github.io/papers/paper8/</guid>
       <description>This paper considers estimation of lifespan brain trajectories from longitudinal data, using generalized additive mixed models. It studies how to distinguish longitudinal effects from cohort effects, and shows example code in R which practitioners can use for their own data. Published in NeuroImage.</description>
     </item>
     <item>
       <title>Meta-analysis of generalized additive models in neuroimaging studies</title>
-      <link>http://localhost:1313/papers/paper7/</link>
+      <link>https://osorensen.github.io/papers/paper7/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/papers/paper7/</guid>
+      <guid>https://osorensen.github.io/papers/paper7/</guid>
       <description>This paper considers meta analysis of nonlinear functions estimated by generalized additive (mixed) models.</description>
     </item>
     <item>
       <title>BayesianLaterality - Predict Brain Asymmetry Based on Handedness and Dichotic Listening</title>
-      <link>http://localhost:1313/software/software4/</link>
+      <link>https://osorensen.github.io/software/software4/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/software/software4/</guid>
+      <guid>https://osorensen.github.io/software/software4/</guid>
       <description>This R package contains functions for estimating whether a subject is left- or right-dominant for language processing based on the results of dichotic listening experiments and information about handedness.</description>
     </item>
     <item>
       <title>BayesMallows: An R Package for the Bayesian Mallows Model</title>
-      <link>http://localhost:1313/papers/paper5/</link>
+      <link>https://osorensen.github.io/papers/paper5/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/papers/paper5/</guid>
+      <guid>https://osorensen.github.io/papers/paper5/</guid>
       <description>This paper presents the BayesMallows R package, for analysis of rank and preference data. Published in the R Journal.</description>
     </item>
     <item>
       <title>From observed laterality to latent hemispheric differences: Revisiting the inference problem</title>
-      <link>http://localhost:1313/papers/paper6/</link>
+      <link>https://osorensen.github.io/papers/paper6/</link>
       <pubDate>Tue, 26 May 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/papers/paper6/</guid>
+      <guid>https://osorensen.github.io/papers/paper6/</guid>
       <description>This paper considers predicting whether people are right or left brain dominant for language processing, based on their result in dichotic listening experiments as well as their handedness.</description>
     </item>
     <item>
       <title>metagam: Meta-Analysis of Generalized Additive Models</title>
-      <link>http://localhost:1313/software/software5/</link>
+      <link>https://osorensen.github.io/software/software5/</link>
       <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/software/software5/</guid>
+      <guid>https://osorensen.github.io/software/software5/</guid>
       <description>This R package contains functions for meta analysis using generalized additive (mixed) models, by combining fits from multiple studies.</description>
     </item>
     <item>
       <title>hdme: High-Dimensional Regression with Measurement Error</title>
-      <link>http://localhost:1313/papers/paper4/</link>
+      <link>https://osorensen.github.io/papers/paper4/</link>
       <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/papers/paper4/</guid>
+      <guid>https://osorensen.github.io/papers/paper4/</guid>
       <description>This paper presents the hdme package, implementing variable selection methods for regression with covariate measurement error.</description>
     </item>
     <item>
       <title>BayesMallows: Bayesian Preference Learning with the Mallows Rank Model</title>
-      <link>http://localhost:1313/software/software2/</link>
+      <link>https://osorensen.github.io/software/software2/</link>
       <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/software/software2/</guid>
+      <guid>https://osorensen.github.io/software/software2/</guid>
       <description>This R package contains functions for estimating the Bayesian Mallows model in a wide range of situation, using the Metropolis-Hastings algorithm.</description>
     </item>
     <item>
       <title>Covariate Selection in High-Dimensional Generalized Linear Models With Measurement Error</title>
-      <link>http://localhost:1313/papers/paper2/</link>
+      <link>https://osorensen.github.io/papers/paper2/</link>
       <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/papers/paper2/</guid>
+      <guid>https://osorensen.github.io/papers/paper2/</guid>
       <description>This paper proposes an extension of the generalized Dantzig selector for cases with measurement error in the predictor variables.</description>
     </item>
     <item>
       <title>Probabilistic preference learning with the Mallows rank model</title>
-      <link>http://localhost:1313/papers/paper3/</link>
+      <link>https://osorensen.github.io/papers/paper3/</link>
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/papers/paper3/</guid>
+      <guid>https://osorensen.github.io/papers/paper3/</guid>
       <description>This paper consider probabilistic preference learning with Mallows&amp;#39; rank model.</description>
     </item>
     <item>
       <title>hdme: High-Dimensional Regression with Measurement Error</title>
-      <link>http://localhost:1313/software/software3/</link>
+      <link>https://osorensen.github.io/software/software3/</link>
       <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/software/software3/</guid>
+      <guid>https://osorensen.github.io/software/software3/</guid>
       <description>This R package contains functions for fitting variable selection models in the presence of noise in the predictor variables. In particular, it supports a corrected lasso and the generalized matrix uncertainty selector. In addition, it offers an implementation of the (generalized) Dantzig selector.</description>
     </item>
     <item>
       <title>Measurement Error in Lasso: Impact and Likelihood Bias Correction</title>
-      <link>http://localhost:1313/papers/paper1/</link>
+      <link>https://osorensen.github.io/papers/paper1/</link>
       <pubDate>Wed, 01 Apr 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/papers/paper1/</guid>
+      <guid>https://osorensen.github.io/papers/paper1/</guid>
       <description>This paper analyzes the impact of covariate measurement error in the lasso method for penalized regression, and then proposes correction methods both for linear models and generalized linear models.</description>
     </item>
   </channel>

@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>R on Øystein Sørensen</title>
-    <link>http://localhost:1313/tags/r/</link>
+    <link>https://osorensen.github.io/tags/r/</link>
     <description>Recent content in R on Øystein Sørensen</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <lastBuildDate>Fri, 18 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://osorensen.github.io/tags/r/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Multilevel Semiparametric Latent Variable Modeling in R with &#34;galamm&#34;</title>
-      <link>http://localhost:1313/papers/paper10/</link>
+      <link>https://osorensen.github.io/papers/paper10/</link>
       <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/papers/paper10/</guid>
+      <guid>https://osorensen.github.io/papers/paper10/</guid>
       <description>This paper presents the R package &amp;#34;galamm&amp;#34;, which contains open-source implementations for generalized additive latent and mixed models (GALAMMs). Published in Multivariate Behavioral Research.</description>
     </item>
     <item>
       <title>galamm - Generalized Additive Latent and Mixed Models</title>
-      <link>http://localhost:1313/software/software1/</link>
+      <link>https://osorensen.github.io/software/software1/</link>
       <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/software/software1/</guid>
+      <guid>https://osorensen.github.io/software/software1/</guid>
       <description>This R package contains functions for estimating generalized additive latent and mixed models.</description>
     </item>
     <item>
       <title>BayesianLaterality - Predict Brain Asymmetry Based on Handedness and Dichotic Listening</title>
-      <link>http://localhost:1313/software/software4/</link>
+      <link>https://osorensen.github.io/software/software4/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/software/software4/</guid>
+      <guid>https://osorensen.github.io/software/software4/</guid>
       <description>This R package contains functions for estimating whether a subject is left- or right-dominant for language processing based on the results of dichotic listening experiments and information about handedness.</description>
     </item>
     <item>
       <title>BayesMallows: An R Package for the Bayesian Mallows Model</title>
-      <link>http://localhost:1313/papers/paper5/</link>
+      <link>https://osorensen.github.io/papers/paper5/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/papers/paper5/</guid>
+      <guid>https://osorensen.github.io/papers/paper5/</guid>
       <description>This paper presents the BayesMallows R package, for analysis of rank and preference data. Published in the R Journal.</description>
     </item>
     <item>
       <title>metagam: Meta-Analysis of Generalized Additive Models</title>
-      <link>http://localhost:1313/software/software5/</link>
+      <link>https://osorensen.github.io/software/software5/</link>
       <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/software/software5/</guid>
+      <guid>https://osorensen.github.io/software/software5/</guid>
       <description>This R package contains functions for meta analysis using generalized additive (mixed) models, by combining fits from multiple studies.</description>
     </item>
     <item>
       <title>hdme: High-Dimensional Regression with Measurement Error</title>
-      <link>http://localhost:1313/papers/paper4/</link>
+      <link>https://osorensen.github.io/papers/paper4/</link>
       <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/papers/paper4/</guid>
+      <guid>https://osorensen.github.io/papers/paper4/</guid>
       <description>This paper presents the hdme package, implementing variable selection methods for regression with covariate measurement error.</description>
     </item>
     <item>
       <title>BayesMallows: Bayesian Preference Learning with the Mallows Rank Model</title>
-      <link>http://localhost:1313/software/software2/</link>
+      <link>https://osorensen.github.io/software/software2/</link>
       <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/software/software2/</guid>
+      <guid>https://osorensen.github.io/software/software2/</guid>
       <description>This R package contains functions for estimating the Bayesian Mallows model in a wide range of situation, using the Metropolis-Hastings algorithm.</description>
     </item>
     <item>
       <title>hdme: High-Dimensional Regression with Measurement Error</title>
-      <link>http://localhost:1313/software/software3/</link>
+      <link>https://osorensen.github.io/software/software3/</link>
       <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/software/software3/</guid>
+      <guid>https://osorensen.github.io/software/software3/</guid>
       <description>This R package contains functions for fitting variable selection models in the presence of noise in the predictor variables. In particular, it supports a corrected lasso and the generalized matrix uncertainty selector. In addition, it offers an implementation of the (generalized) Dantzig selector.</description>
     </item>
   </channel>

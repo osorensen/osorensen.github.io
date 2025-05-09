@@ -8,14 +8,14 @@ author: [
     "Ethan M. McCormick"
 ]
 description: "This paper considers rank and preference modeling for the case in which data arrive sequentially, rather than in a batch. The goal is to compute the posterior distribution incrementally in time, so that it can be quickly updated when new data arrives. To this end, we develop a sequential Monte Carlo algorithm for the Bayesian Mallows model. arXiv preprint currently under revision."
-summary: "Dynamic structural equation models have become extremely popular for analysis of intensive longitudinal data in the social sciences. One outstanding problem is how to handle nonlinear trends and cycles, and in this paper we propose to do this in a very flexible manner using regression splines. We test the methods in simulation studies, and then illustrate them by analyzing a diary data set on alcohol consumption and stress. Open-source Stan code is available from our OSF repository. PsyArXiv preprint currently under revision."
+summary: "Dynamic structural equation models have become extremely popular for analysis of intensive longitudinal data in the social sciences. One outstanding problem is how to handle nonlinear trends and cycles, and in this paper we propose to do this in a very flexible manner using regression splines. We test the methods in simulation studies, and then illustrate them by analyzing a diary data set on alcohol consumption and stress. Open-source Stan code is available from our OSF repository. Accepted for publication in Multivariate Behavioral Research."
 cover:
     image: "paper12.png"
     
     relative: false
 editPost:
     URL: "https://doi.org/10.48550/arXiv.2412.13644"
-    Text: "PsyArXiv preprint"
+    Text: "Accepted for publication in Multivariate Behavioral Research"
 
 ---
 

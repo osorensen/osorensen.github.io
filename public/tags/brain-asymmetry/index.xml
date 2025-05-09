@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Brain Asymmetry on Øystein Sørensen</title>
-    <link>http://localhost:1313/tags/brain-asymmetry/</link>
+    <link>https://osorensen.github.io/tags/brain-asymmetry/</link>
     <description>Recent content in Brain Asymmetry on Øystein Sørensen</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <lastBuildDate>Wed, 08 May 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/brain-asymmetry/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://osorensen.github.io/tags/brain-asymmetry/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>BayesianLaterality - Predict Brain Asymmetry Based on Handedness and Dichotic Listening</title>
-      <link>http://localhost:1313/software/software4/</link>
+      <link>https://osorensen.github.io/software/software4/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/software/software4/</guid>
+      <guid>https://osorensen.github.io/software/software4/</guid>
       <description>This R package contains functions for estimating whether a subject is left- or right-dominant for language processing based on the results of dichotic listening experiments and information about handedness.</description>
     </item>
   </channel>
