@@ -8,14 +8,14 @@ author: [
     "Ethan M. McCormick"
 ]
 description: "This paper considers rank and preference modeling for the case in which data arrive sequentially, rather than in a batch. The goal is to compute the posterior distribution incrementally in time, so that it can be quickly updated when new data arrives. To this end, we develop a sequential Monte Carlo algorithm for the Bayesian Mallows model. arXiv preprint currently under revision."
-summary: "Dynamic structural equation models have become extremely popular for analysis of intensive longitudinal data in the social sciences. One outstanding problem is how to handle nonlinear trends and cycles, and in this paper we propose to do this in a very flexible manner using regression splines. We test the methods in simulation studies, and then illustrate them by analyzing a diary data set on alcohol consumption and stress. Open-source Stan code is available from our OSF repository. Accepted for publication in Multivariate Behavioral Research."
+summary: "Dynamic structural equation models have become extremely popular for analysis of intensive longitudinal data in the social sciences. One outstanding problem is how to handle nonlinear trends and cycles, and in this paper we propose to do this in a very flexible manner using regression splines. We test the methods in simulation studies, and then illustrate them by analyzing a diary data set on alcohol consumption and stress. Open-source Stan code is available from our OSF repository. Published in Multivariate Behavioral Research."
 cover:
     image: "paper12.png"
     
     relative: false
 editPost:
     URL: "https://doi.org/10.48550/arXiv.2412.13644"
-    Text: "Accepted for publication in Multivariate Behavioral Research"
+    Text: "Published in Multivariate Behavioral Research"
 
 ---
 
@@ -23,7 +23,7 @@ editPost:
 
 ##### Download
 
-+ [Paper](https://doi.org/10.31234/osf.io/2ajpt)
++ [Paper](https://doi.org/10.1080/00273171.2025.2507297)
 + [Stan code](https://osf.io/qpkmg/)
 
 ---
@@ -42,22 +42,24 @@ Intensive longitudinal data with a large number of timepoints per individual are
 
 ##### Citation
 
-Sørensen, Ø., & McCormick, E. M. (2025). Modeling Cycles, Trends and Time-Varying Effects in Dynamic Structural Equation Models with Regression Splines. OSF. https://doi.org/10.31234/osf.io/2ajpt
-
+Sørensen, Ø., & McCormick, E. M. (2025). Modeling Cycles, Trends and Time-Varying Effects in Dynamic Structural Equation Models with Regression Splines. Multivariate Behavioral Research, 1–16. https://doi.org/10.1080/00273171.2025.2507297
 
 
 
 ```BibTeX
-@misc{sorensenModelingCyclesTrends2025,
-  title = {Modeling {{Cycles}}, {{Trends}} and {{Time-Varying Effects}} in {{Dynamic Structural Equation Models}} with {{Regression Splines}}},
-  author = {S{\o}rensen, {\O}ystein and McCormick, Ethan M.},
-  year = {2025},
-  month = jan,
-  publisher = {OSF},
-  doi = {10.31234/osf.io/2ajpt},
-  archiveprefix = {OSF},
-  langid = {american},
-  keywords = {DSEM,intensive longitudinal data,regression splines,smoothing,Stan.}
+@article{Sørensen02062025,
+    author = {Ø. Sørensen and E. M. McCormick},
+    title = {Modeling Cycles, Trends and Time-Varying Effects in Dynamic Structural Equation Models with Regression Splines},
+    journal = {Multivariate Behavioral Research},
+    volume = {0},
+    number = {0},
+    pages = {1--16},
+    year = {2025},
+    publisher = {Routledge},
+    doi = {10.1080/00273171.2025.2507297},
+    note ={PMID: 40454572},
+    URL = {https://doi.org/10.1080/00273171.2025.2507297},
+    eprint = {https://doi.org/10.1080/00273171.2025.2507297}
 }
 ```
 
