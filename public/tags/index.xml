@@ -2,311 +2,311 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Øystein Sørensen</title>
-    <link>https://osorensen.github.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Øystein Sørensen</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <lastBuildDate>Fri, 18 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://osorensen.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DSEM</title>
-      <link>https://osorensen.github.io/tags/dsem/</link>
+      <link>http://localhost:1313/tags/dsem/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/tags/dsem/</guid>
+      <guid>http://localhost:1313/tags/dsem/</guid>
       <description></description>
     </item>
     <item>
       <title>Intensive Longitudinal Data</title>
-      <link>https://osorensen.github.io/tags/intensive-longitudinal-data/</link>
+      <link>http://localhost:1313/tags/intensive-longitudinal-data/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/tags/intensive-longitudinal-data/</guid>
+      <guid>http://localhost:1313/tags/intensive-longitudinal-data/</guid>
       <description></description>
     </item>
     <item>
       <title>Regression Splines</title>
-      <link>https://osorensen.github.io/tags/regression-splines/</link>
+      <link>http://localhost:1313/tags/regression-splines/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/tags/regression-splines/</guid>
+      <guid>http://localhost:1313/tags/regression-splines/</guid>
       <description></description>
     </item>
     <item>
       <title>Smoothing</title>
-      <link>https://osorensen.github.io/tags/smoothing/</link>
+      <link>http://localhost:1313/tags/smoothing/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/tags/smoothing/</guid>
+      <guid>http://localhost:1313/tags/smoothing/</guid>
       <description></description>
     </item>
     <item>
       <title>Stan</title>
-      <link>https://osorensen.github.io/tags/stan/</link>
+      <link>http://localhost:1313/tags/stan/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/tags/stan/</guid>
+      <guid>http://localhost:1313/tags/stan/</guid>
       <description></description>
     </item>
     <item>
       <title>Mallows Mixtures</title>
-      <link>https://osorensen.github.io/tags/mallows-mixtures/</link>
+      <link>http://localhost:1313/tags/mallows-mixtures/</link>
       <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/tags/mallows-mixtures/</guid>
+      <guid>http://localhost:1313/tags/mallows-mixtures/</guid>
       <description></description>
     </item>
     <item>
       <title>Partial Rankings</title>
-      <link>https://osorensen.github.io/tags/partial-rankings/</link>
+      <link>http://localhost:1313/tags/partial-rankings/</link>
       <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/tags/partial-rankings/</guid>
+      <guid>http://localhost:1313/tags/partial-rankings/</guid>
       <description></description>
     </item>
     <item>
       <title>Particle Filter</title>
-      <link>https://osorensen.github.io/tags/particle-filter/</link>
+      <link>http://localhost:1313/tags/particle-filter/</link>
       <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/tags/particle-filter/</guid>
+      <guid>http://localhost:1313/tags/particle-filter/</guid>
       <description></description>
     </item>
     <item>
       <title>Preference Learning</title>
-      <link>https://osorensen.github.io/tags/preference-learning/</link>
+      <link>http://localhost:1313/tags/preference-learning/</link>
       <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/tags/preference-learning/</guid>
+      <guid>http://localhost:1313/tags/preference-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>SMC$^{2}$</title>
-      <link>https://osorensen.github.io/tags/smc2/</link>
+      <link>http://localhost:1313/tags/smc2/</link>
       <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/tags/smc2/</guid>
+      <guid>http://localhost:1313/tags/smc2/</guid>
       <description></description>
     </item>
     <item>
       <title>Generalized Additive Models</title>
-      <link>https://osorensen.github.io/tags/generalized-additive-models/</link>
+      <link>http://localhost:1313/tags/generalized-additive-models/</link>
       <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/tags/generalized-additive-models/</guid>
+      <guid>http://localhost:1313/tags/generalized-additive-models/</guid>
       <description></description>
     </item>
     <item>
       <title>Item Response Theory</title>
-      <link>https://osorensen.github.io/tags/item-response-theory/</link>
+      <link>http://localhost:1313/tags/item-response-theory/</link>
       <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/tags/item-response-theory/</guid>
+      <guid>http://localhost:1313/tags/item-response-theory/</guid>
       <description></description>
     </item>
     <item>
       <title>Mixed Models</title>
-      <link>https://osorensen.github.io/tags/mixed-models/</link>
+      <link>http://localhost:1313/tags/mixed-models/</link>
       <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/tags/mixed-models/</guid>
+      <guid>http://localhost:1313/tags/mixed-models/</guid>
       <description></description>
     </item>
     <item>
       <title>Mixed Response</title>
-      <link>https://osorensen.github.io/tags/mixed-response/</link>
+      <link>http://localhost:1313/tags/mixed-response/</link>
       <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/tags/mixed-response/</guid>
+      <guid>http://localhost:1313/tags/mixed-response/</guid>
       <description></description>
     </item>
     <item>
       <title>R</title>
-      <link>https://osorensen.github.io/tags/r/</link>
+      <link>http://localhost:1313/tags/r/</link>
       <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/tags/r/</guid>
+      <guid>http://localhost:1313/tags/r/</guid>
       <description></description>
     </item>
     <item>
       <title>Galamm</title>
-      <link>https://osorensen.github.io/tags/galamm/</link>
+      <link>http://localhost:1313/tags/galamm/</link>
       <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/tags/galamm/</guid>
+      <guid>http://localhost:1313/tags/galamm/</guid>
       <description></description>
     </item>
     <item>
       <title>Generalized Additive Latent and Mixed Models</title>
-      <link>https://osorensen.github.io/tags/generalized-additive-latent-and-mixed-models/</link>
+      <link>http://localhost:1313/tags/generalized-additive-latent-and-mixed-models/</link>
       <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/tags/generalized-additive-latent-and-mixed-models/</guid>
+      <guid>http://localhost:1313/tags/generalized-additive-latent-and-mixed-models/</guid>
       <description></description>
     </item>
     <item>
       <title>Generalized Additive Mixed Models</title>
-      <link>https://osorensen.github.io/tags/generalized-additive-mixed-models/</link>
+      <link>http://localhost:1313/tags/generalized-additive-mixed-models/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/tags/generalized-additive-mixed-models/</guid>
+      <guid>http://localhost:1313/tags/generalized-additive-mixed-models/</guid>
       <description></description>
     </item>
     <item>
       <title>Latent Variable Modeling</title>
-      <link>https://osorensen.github.io/tags/latent-variable-modeling/</link>
+      <link>http://localhost:1313/tags/latent-variable-modeling/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/tags/latent-variable-modeling/</guid>
+      <guid>http://localhost:1313/tags/latent-variable-modeling/</guid>
       <description></description>
     </item>
     <item>
       <title>Lifespan Trajectories</title>
-      <link>https://osorensen.github.io/tags/lifespan-trajectories/</link>
+      <link>http://localhost:1313/tags/lifespan-trajectories/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/tags/lifespan-trajectories/</guid>
+      <guid>http://localhost:1313/tags/lifespan-trajectories/</guid>
       <description></description>
     </item>
     <item>
       <title>Cohort Effects</title>
-      <link>https://osorensen.github.io/tags/cohort-effects/</link>
+      <link>http://localhost:1313/tags/cohort-effects/</link>
       <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/tags/cohort-effects/</guid>
+      <guid>http://localhost:1313/tags/cohort-effects/</guid>
       <description></description>
     </item>
     <item>
       <title>Longitudinal Data Analysis</title>
-      <link>https://osorensen.github.io/tags/longitudinal-data-analysis/</link>
+      <link>http://localhost:1313/tags/longitudinal-data-analysis/</link>
       <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/tags/longitudinal-data-analysis/</guid>
+      <guid>http://localhost:1313/tags/longitudinal-data-analysis/</guid>
       <description></description>
     </item>
     <item>
       <title>MRI</title>
-      <link>https://osorensen.github.io/tags/mri/</link>
+      <link>http://localhost:1313/tags/mri/</link>
       <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/tags/mri/</guid>
+      <guid>http://localhost:1313/tags/mri/</guid>
       <description></description>
     </item>
     <item>
       <title>Meta Analysis</title>
-      <link>https://osorensen.github.io/tags/meta-analysis/</link>
+      <link>http://localhost:1313/tags/meta-analysis/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/tags/meta-analysis/</guid>
+      <guid>http://localhost:1313/tags/meta-analysis/</guid>
       <description></description>
     </item>
     <item>
       <title>BayesianLaterality</title>
-      <link>https://osorensen.github.io/tags/bayesianlaterality/</link>
+      <link>http://localhost:1313/tags/bayesianlaterality/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/tags/bayesianlaterality/</guid>
+      <guid>http://localhost:1313/tags/bayesianlaterality/</guid>
       <description></description>
     </item>
     <item>
       <title>Brain Asymmetry</title>
-      <link>https://osorensen.github.io/tags/brain-asymmetry/</link>
+      <link>http://localhost:1313/tags/brain-asymmetry/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/tags/brain-asymmetry/</guid>
+      <guid>http://localhost:1313/tags/brain-asymmetry/</guid>
       <description></description>
     </item>
     <item>
       <title>Dichotic Listening</title>
-      <link>https://osorensen.github.io/tags/dichotic-listening/</link>
+      <link>http://localhost:1313/tags/dichotic-listening/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/tags/dichotic-listening/</guid>
+      <guid>http://localhost:1313/tags/dichotic-listening/</guid>
       <description></description>
     </item>
     <item>
       <title>BayesMallows</title>
-      <link>https://osorensen.github.io/tags/bayesmallows/</link>
+      <link>http://localhost:1313/tags/bayesmallows/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/tags/bayesmallows/</guid>
+      <guid>http://localhost:1313/tags/bayesmallows/</guid>
       <description></description>
     </item>
     <item>
       <title>Preferences</title>
-      <link>https://osorensen.github.io/tags/preferences/</link>
+      <link>http://localhost:1313/tags/preferences/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/tags/preferences/</guid>
+      <guid>http://localhost:1313/tags/preferences/</guid>
       <description></description>
     </item>
     <item>
       <title>Rankings</title>
-      <link>https://osorensen.github.io/tags/rankings/</link>
+      <link>http://localhost:1313/tags/rankings/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/tags/rankings/</guid>
+      <guid>http://localhost:1313/tags/rankings/</guid>
       <description></description>
     </item>
     <item>
       <title>Laterality</title>
-      <link>https://osorensen.github.io/tags/laterality/</link>
+      <link>http://localhost:1313/tags/laterality/</link>
       <pubDate>Tue, 26 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/tags/laterality/</guid>
+      <guid>http://localhost:1313/tags/laterality/</guid>
       <description></description>
     </item>
     <item>
       <title>Naive Bayes Classifier</title>
-      <link>https://osorensen.github.io/tags/naive-bayes-classifier/</link>
+      <link>http://localhost:1313/tags/naive-bayes-classifier/</link>
       <pubDate>Tue, 26 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/tags/naive-bayes-classifier/</guid>
+      <guid>http://localhost:1313/tags/naive-bayes-classifier/</guid>
       <description></description>
     </item>
     <item>
       <title>Metagam</title>
-      <link>https://osorensen.github.io/tags/metagam/</link>
+      <link>http://localhost:1313/tags/metagam/</link>
       <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/tags/metagam/</guid>
+      <guid>http://localhost:1313/tags/metagam/</guid>
       <description></description>
     </item>
     <item>
       <title>Dantzig Selector</title>
-      <link>https://osorensen.github.io/tags/dantzig-selector/</link>
+      <link>http://localhost:1313/tags/dantzig-selector/</link>
       <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/tags/dantzig-selector/</guid>
+      <guid>http://localhost:1313/tags/dantzig-selector/</guid>
       <description></description>
     </item>
     <item>
       <title>Hdme</title>
-      <link>https://osorensen.github.io/tags/hdme/</link>
+      <link>http://localhost:1313/tags/hdme/</link>
       <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/tags/hdme/</guid>
+      <guid>http://localhost:1313/tags/hdme/</guid>
       <description></description>
     </item>
     <item>
       <title>Measurement Error</title>
-      <link>https://osorensen.github.io/tags/measurement-error/</link>
+      <link>http://localhost:1313/tags/measurement-error/</link>
       <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/tags/measurement-error/</guid>
+      <guid>http://localhost:1313/tags/measurement-error/</guid>
       <description></description>
     </item>
     <item>
       <title>MU Selector</title>
-      <link>https://osorensen.github.io/tags/mu-selector/</link>
+      <link>http://localhost:1313/tags/mu-selector/</link>
       <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/tags/mu-selector/</guid>
+      <guid>http://localhost:1313/tags/mu-selector/</guid>
       <description></description>
     </item>
     <item>
       <title>Mallows Model</title>
-      <link>https://osorensen.github.io/tags/mallows-model/</link>
+      <link>http://localhost:1313/tags/mallows-model/</link>
       <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/tags/mallows-model/</guid>
+      <guid>http://localhost:1313/tags/mallows-model/</guid>
       <description></description>
     </item>
     <item>
       <title>Lasso</title>
-      <link>https://osorensen.github.io/tags/lasso/</link>
+      <link>http://localhost:1313/tags/lasso/</link>
       <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/tags/lasso/</guid>
+      <guid>http://localhost:1313/tags/lasso/</guid>
       <description></description>
     </item>
     <item>
       <title>Mallows</title>
-      <link>https://osorensen.github.io/tags/mallows/</link>
+      <link>http://localhost:1313/tags/mallows/</link>
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/tags/mallows/</guid>
+      <guid>http://localhost:1313/tags/mallows/</guid>
       <description></description>
     </item>
     <item>
       <title>Rank Modeling</title>
-      <link>https://osorensen.github.io/tags/rank-modeling/</link>
+      <link>http://localhost:1313/tags/rank-modeling/</link>
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/tags/rank-modeling/</guid>
+      <guid>http://localhost:1313/tags/rank-modeling/</guid>
       <description></description>
     </item>
     <item>
       <title>Matrix Uncertainty Selector</title>
-      <link>https://osorensen.github.io/tags/matrix-uncertainty-selector/</link>
+      <link>http://localhost:1313/tags/matrix-uncertainty-selector/</link>
       <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/tags/matrix-uncertainty-selector/</guid>
+      <guid>http://localhost:1313/tags/matrix-uncertainty-selector/</guid>
       <description></description>
     </item>
     <item>
       <title>Measurement Errror</title>
-      <link>https://osorensen.github.io/tags/measurement-errror/</link>
+      <link>http://localhost:1313/tags/measurement-errror/</link>
       <pubDate>Wed, 01 Apr 2015 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/tags/measurement-errror/</guid>
+      <guid>http://localhost:1313/tags/measurement-errror/</guid>
       <description></description>
     </item>
   </channel>
