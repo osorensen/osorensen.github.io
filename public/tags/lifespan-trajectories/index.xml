@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Lifespan Trajectories on Øystein Sørensen</title>
-    <link>https://osorensen.github.io/tags/lifespan-trajectories/</link>
+    <link>http://localhost:1313/tags/lifespan-trajectories/</link>
     <description>Recent content in Lifespan Trajectories on Øystein Sørensen</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <lastBuildDate>Fri, 12 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://osorensen.github.io/tags/lifespan-trajectories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/lifespan-trajectories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Longitudinal Modeling of Age-Dependent Latent Traits with Generalized Additive Latent and Mixed Models</title>
-      <link>https://osorensen.github.io/papers/paper9/</link>
+      <link>http://localhost:1313/papers/paper9/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/papers/paper9/</guid>
+      <guid>http://localhost:1313/papers/paper9/</guid>
       <description>This paper was motivated by the need to use flexible spline models to model how cognitive abilities change with age, and investigating how changes in abilities in certain cognitive domains can be explained by changes in the brain. To this end we developed a framework called Generalized Additive Latent and Mixed Models (GALAMM), combining generalized additive mixed models, structural equation modeling, and mxied effect modeling. We also propose algorithms for estimating the models, using sparse matrix methods and automatic differentation. Published in Psychometrika.</description>
     </item>
   </channel>
