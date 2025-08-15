@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Metagam on Øystein Sørensen</title>
-    <link>http://localhost:1313/tags/metagam/</link>
+    <link>https://osorensen.github.io/tags/metagam/</link>
     <description>Recent content in Metagam on Øystein Sørensen</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <lastBuildDate>Wed, 08 May 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/metagam/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://osorensen.github.io/tags/metagam/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>metagam: Meta-Analysis of Generalized Additive Models</title>
-      <link>http://localhost:1313/software/software5/</link>
+      <link>https://osorensen.github.io/software/software5/</link>
       <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/software/software5/</guid>
+      <guid>https://osorensen.github.io/software/software5/</guid>
       <description>This R package contains functions for meta analysis using generalized additive (mixed) models, by combining fits from multiple studies.</description>
     </item>
   </channel>

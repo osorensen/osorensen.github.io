@@ -2,200 +2,200 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://osorensen.github.io/</loc>
     <lastmod>2024-10-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/dsem/</loc>
+    <loc>https://osorensen.github.io/tags/dsem/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/intensive-longitudinal-data/</loc>
+    <loc>https://osorensen.github.io/tags/intensive-longitudinal-data/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/papers/paper12/</loc>
+    <loc>https://osorensen.github.io/papers/paper12/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/papers/</loc>
+    <loc>https://osorensen.github.io/papers/</loc>
     <lastmod>2024-10-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/regression-splines/</loc>
+    <loc>https://osorensen.github.io/tags/regression-splines/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/smoothing/</loc>
+    <loc>https://osorensen.github.io/tags/smoothing/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/stan/</loc>
+    <loc>https://osorensen.github.io/tags/stan/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://osorensen.github.io/tags/</loc>
     <lastmod>2024-10-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/mallows-mixtures/</loc>
+    <loc>https://osorensen.github.io/tags/mallows-mixtures/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/partial-rankings/</loc>
+    <loc>https://osorensen.github.io/tags/partial-rankings/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/particle-filter/</loc>
+    <loc>https://osorensen.github.io/tags/particle-filter/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/preference-learning/</loc>
+    <loc>https://osorensen.github.io/tags/preference-learning/</loc>
     <lastmod>2024-10-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/papers/paper11/</loc>
+    <loc>https://osorensen.github.io/papers/paper11/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/smc2/</loc>
+    <loc>https://osorensen.github.io/tags/smc2/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/generalized-additive-models/</loc>
+    <loc>https://osorensen.github.io/tags/generalized-additive-models/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/item-response-theory/</loc>
+    <loc>https://osorensen.github.io/tags/item-response-theory/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/mixed-models/</loc>
+    <loc>https://osorensen.github.io/tags/mixed-models/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/mixed-response/</loc>
+    <loc>https://osorensen.github.io/tags/mixed-response/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/papers/paper10/</loc>
+    <loc>https://osorensen.github.io/papers/paper10/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/r/</loc>
+    <loc>https://osorensen.github.io/tags/r/</loc>
     <lastmod>2024-10-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/galamm/</loc>
+    <loc>https://osorensen.github.io/tags/galamm/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/software/software1/</loc>
+    <loc>https://osorensen.github.io/software/software1/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/generalized-additive-latent-and-mixed-models/</loc>
+    <loc>https://osorensen.github.io/tags/generalized-additive-latent-and-mixed-models/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/software/</loc>
+    <loc>https://osorensen.github.io/software/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/generalized-additive-mixed-models/</loc>
+    <loc>https://osorensen.github.io/tags/generalized-additive-mixed-models/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/latent-variable-modeling/</loc>
+    <loc>https://osorensen.github.io/tags/latent-variable-modeling/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/lifespan-trajectories/</loc>
+    <loc>https://osorensen.github.io/tags/lifespan-trajectories/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/papers/paper9/</loc>
+    <loc>https://osorensen.github.io/papers/paper9/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/papers/paper8/</loc>
+    <loc>https://osorensen.github.io/papers/paper8/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/cohort-effects/</loc>
+    <loc>https://osorensen.github.io/tags/cohort-effects/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/longitudinal-data-analysis/</loc>
+    <loc>https://osorensen.github.io/tags/longitudinal-data-analysis/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/mri/</loc>
+    <loc>https://osorensen.github.io/tags/mri/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/meta-analysis/</loc>
+    <loc>https://osorensen.github.io/tags/meta-analysis/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/papers/paper7/</loc>
+    <loc>https://osorensen.github.io/papers/paper7/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/bayesianlaterality/</loc>
+    <loc>https://osorensen.github.io/tags/bayesianlaterality/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/software/software4/</loc>
+    <loc>https://osorensen.github.io/software/software4/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/brain-asymmetry/</loc>
+    <loc>https://osorensen.github.io/tags/brain-asymmetry/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/dichotic-listening/</loc>
+    <loc>https://osorensen.github.io/tags/dichotic-listening/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/bayesmallows/</loc>
+    <loc>https://osorensen.github.io/tags/bayesmallows/</loc>
     <lastmod>2024-10-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/papers/paper5/</loc>
+    <loc>https://osorensen.github.io/papers/paper5/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/preferences/</loc>
+    <loc>https://osorensen.github.io/tags/preferences/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/rankings/</loc>
+    <loc>https://osorensen.github.io/tags/rankings/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/papers/paper6/</loc>
+    <loc>https://osorensen.github.io/papers/paper6/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/laterality/</loc>
+    <loc>https://osorensen.github.io/tags/laterality/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/naive-bayes-classifier/</loc>
+    <loc>https://osorensen.github.io/tags/naive-bayes-classifier/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/metagam/</loc>
+    <loc>https://osorensen.github.io/tags/metagam/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/software/software5/</loc>
+    <loc>https://osorensen.github.io/software/software5/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/dantzig-selector/</loc>
+    <loc>https://osorensen.github.io/tags/dantzig-selector/</loc>
     <lastmod>2024-10-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/hdme/</loc>
+    <loc>https://osorensen.github.io/tags/hdme/</loc>
     <lastmod>2024-10-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/papers/paper4/</loc>
+    <loc>https://osorensen.github.io/papers/paper4/</loc>
     <lastmod>2024-10-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/measurement-error/</loc>
+    <loc>https://osorensen.github.io/tags/measurement-error/</loc>
     <lastmod>2024-10-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/mu-selector/</loc>
+    <loc>https://osorensen.github.io/tags/mu-selector/</loc>
     <lastmod>2024-10-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/software/software2/</loc>
+    <loc>https://osorensen.github.io/software/software2/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/mallows-model/</loc>
+    <loc>https://osorensen.github.io/tags/mallows-model/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/papers/paper2/</loc>
+    <loc>https://osorensen.github.io/papers/paper2/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/lasso/</loc>
+    <loc>https://osorensen.github.io/tags/lasso/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/mallows/</loc>
+    <loc>https://osorensen.github.io/tags/mallows/</loc>
     <lastmod>2024-10-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/papers/paper3/</loc>
+    <loc>https://osorensen.github.io/papers/paper3/</loc>
     <lastmod>2024-10-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/rank-modeling/</loc>
+    <loc>https://osorensen.github.io/tags/rank-modeling/</loc>
     <lastmod>2024-10-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/software/software3/</loc>
+    <loc>https://osorensen.github.io/software/software3/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/matrix-uncertainty-selector/</loc>
+    <loc>https://osorensen.github.io/tags/matrix-uncertainty-selector/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/papers/paper1/</loc>
+    <loc>https://osorensen.github.io/papers/paper1/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/measurement-errror/</loc>
+    <loc>https://osorensen.github.io/tags/measurement-errror/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/</loc>
+    <loc>https://osorensen.github.io/archive/</loc>
   </url><url>
-    <loc>http://localhost:1313/courses/</loc>
+    <loc>https://osorensen.github.io/courses/</loc>
   </url>
 </urlset>

@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>Modeling Cycles, Trends and Time-Varying Effects in Dynamic Structural Equation Models with Regression Splines | Øystein Sørensen</title>
 <meta name="keywords" content="DSEM, intensive longitudinal data, regression splines, smoothing, Stan">
 <meta name="description" content="This paper considers rank and preference modeling for the case in which data arrive sequentially, rather than in a batch. The goal is to compute the posterior distribution incrementally in time, so that it can be quickly updated when new data arrives. To this end, we develop a sequential Monte Carlo algorithm for the Bayesian Mallows model. arXiv preprint currently under revision.">
 <meta name="author" content="Øystein Sørensen,&thinsp;Ethan M. McCormick">
-<link rel="canonical" href="http://localhost:1313/papers/paper12/">
+<link rel="canonical" href="https://osorensen.github.io/papers/paper12/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.e690afcd5c523330d5c8b4d746eb158361600a015e99518d4d246a6ccab0cc19.css" integrity="sha256-5pCvzVxSMzDVyLTXRusVg2FgCgFemVGNTSRqbMqwzBk=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="icon" href="https://osorensen.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://osorensen.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://osorensen.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://osorensen.github.io/apple-touch-icon.png">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/papers/paper12/">
+<link rel="alternate" hreflang="en" href="https://osorensen.github.io/papers/paper12/">
 <noscript>
     <style>
         #theme-toggle,
@@ -29,13 +29,13 @@
 </noscript><meta property="og:title" content="Modeling Cycles, Trends and Time-Varying Effects in Dynamic Structural Equation Models with Regression Splines" />
 <meta property="og:description" content="This paper considers rank and preference modeling for the case in which data arrive sequentially, rather than in a batch. The goal is to compute the posterior distribution incrementally in time, so that it can be quickly updated when new data arrives. To this end, we develop a sequential Monte Carlo algorithm for the Bayesian Mallows model. arXiv preprint currently under revision." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/papers/paper12/" />
-<meta property="og:image" content="http://localhost:1313/paper12.png" /><meta property="article:section" content="papers" />
+<meta property="og:url" content="https://osorensen.github.io/papers/paper12/" />
+<meta property="og:image" content="https://osorensen.github.io/paper12.png" /><meta property="article:section" content="papers" />
 <meta property="article:published_time" content="2025-01-01T00:00:00+00:00" />
 <meta property="article:modified_time" content="2024-07-12T00:00:00+00:00" />
 
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="http://localhost:1313/paper12.png" />
+<meta name="twitter:image" content="https://osorensen.github.io/paper12.png" />
 <meta name="twitter:title" content="Modeling Cycles, Trends and Time-Varying Effects in Dynamic Structural Equation Models with Regression Splines"/>
 <meta name="twitter:description" content="This paper considers rank and preference modeling for the case in which data arrive sequentially, rather than in a batch. The goal is to compute the posterior distribution incrementally in time, so that it can be quickly updated when new data arrives. To this end, we develop a sequential Monte Carlo algorithm for the Bayesian Mallows model. arXiv preprint currently under revision."/>
 
@@ -49,13 +49,13 @@
       "@type": "ListItem",
       "position":  1 ,
       "name": "Papers",
-      "item": "http://localhost:1313/papers/"
+      "item": "https://osorensen.github.io/papers/"
     }, 
     {
       "@type": "ListItem",
       "position":  2 ,
       "name": "Modeling Cycles, Trends and Time-Varying Effects in Dynamic Structural Equation Models with Regression Splines",
-      "item": "http://localhost:1313/papers/paper12/"
+      "item": "https://osorensen.github.io/papers/paper12/"
     }
   ]
 }
@@ -73,7 +73,7 @@
   "articleBody": " Download Paper Stan code Abstract Intensive longitudinal data with a large number of timepoints per individual are becoming increasingly common. Such data allow going beyond the classical growth model situation and studying population effects and individual variability not only in trends over time but also in autoregressive effects, cross-lagged effects, and the noise term. Dynamic structural equation models (DSEMs) have become very popular for analyzing intensive longitudinal data. However, when the data contain trends, cycles, or time-varying predictors which have nonlinear effects on the outcome, DSEMs require the practitioner to specify the correct parametric form of the effects, which may be challenging in practice. In this paper we show how to alleviate this issue by introducing regression splines which are able to flexibly learn the underlying function shapes. Our main contribution is thus a building block to the DSEM modeler’s toolkit, and we discuss smoothing priors and hierarchical smooth terms using the special cases of two-level lag-1 autoregressive and vector autoregressive models as examples. We illustrate in simulation studies how ignoring nonlinear trends may lead to biased parameter estimates, and then show how to use the proposed framework to model weekly cycles and long-term trends in diary data on alcohol consumption and perceived stress.\nFigure 4 Citation Sørensen, Ø., \u0026 McCormick, E. M. (2025). Modeling Cycles, Trends and Time-Varying Effects in Dynamic Structural Equation Models with Regression Splines. Multivariate Behavioral Research, 1–16. https://doi.org/10.1080/00273171.2025.2507297\n@article{Sørensen02062025, author = {Ø. Sørensen and E. M. McCormick}, title = {Modeling Cycles, Trends and Time-Varying Effects in Dynamic Structural Equation Models with Regression Splines}, journal = {Multivariate Behavioral Research}, volume = {0}, number = {0}, pages = {1--16}, year = {2025}, publisher = {Routledge}, doi = {10.1080/00273171.2025.2507297}, note ={PMID: 40454572}, URL = {https://doi.org/10.1080/00273171.2025.2507297}, eprint = {https://doi.org/10.1080/00273171.2025.2507297} } ",
   "wordCount" : "291",
   "inLanguage": "en",
-  "image":"http://localhost:1313/paper12.png","datePublished": "2025-01-01T00:00:00Z",
+  "image":"https://osorensen.github.io/paper12.png","datePublished": "2025-01-01T00:00:00Z",
   "dateModified": "2024-07-12T00:00:00Z",
   "author":[{
     "@type": "Person",
@@ -84,14 +84,14 @@
   }],
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "http://localhost:1313/papers/paper12/"
+    "@id": "https://osorensen.github.io/papers/paper12/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "Øystein Sørensen",
     "logo": {
       "@type": "ImageObject",
-      "url": "http://localhost:1313/favicon.ico"
+      "url": "https://osorensen.github.io/favicon.ico"
     }
   }
 }
@@ -132,8 +132,8 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="Øystein Sørensen">
-                <img src="http://localhost:1313/favicon.ico" alt="" aria-label="logo"
+            <a href="https://osorensen.github.io/" accesskey="h" title="Øystein Sørensen">
+                <img src="https://osorensen.github.io/favicon.ico" alt="" aria-label="logo"
                     height="18"
                     width="18">Øystein Sørensen</a>
             <div class="logo-switches">
@@ -141,17 +141,17 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/papers/" title="Papers">
+                <a href="https://osorensen.github.io/papers/" title="Papers">
                     <span>Papers</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/software/" title="Software">
+                <a href="https://osorensen.github.io/software/" title="Software">
                     <span>Software</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/courses/" title="Courses">
+                <a href="https://osorensen.github.io/courses/" title="Courses">
                     <span>Courses</span>
                 </a>
             </li>
@@ -206,18 +206,18 @@
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="http://localhost:1313/tags/dsem/">DSEM</a></li>
-      <li><a href="http://localhost:1313/tags/intensive-longitudinal-data/">Intensive Longitudinal Data</a></li>
-      <li><a href="http://localhost:1313/tags/regression-splines/">Regression Splines</a></li>
-      <li><a href="http://localhost:1313/tags/smoothing/">Smoothing</a></li>
-      <li><a href="http://localhost:1313/tags/stan/">Stan</a></li>
+      <li><a href="https://osorensen.github.io/tags/dsem/">DSEM</a></li>
+      <li><a href="https://osorensen.github.io/tags/intensive-longitudinal-data/">Intensive Longitudinal Data</a></li>
+      <li><a href="https://osorensen.github.io/tags/regression-splines/">Regression Splines</a></li>
+      <li><a href="https://osorensen.github.io/tags/smoothing/">Smoothing</a></li>
+      <li><a href="https://osorensen.github.io/tags/stan/">Stan</a></li>
     </ul>
   </footer>
 </article>
     </main>
     
 <footer class="footer">
-    <span>&copy; 2025 <a href="http://localhost:1313/">Øystein Sørensen</a></span> ·     
+    <span>&copy; 2025 <a href="https://osorensen.github.io/">Øystein Sørensen</a></span> ·     
     <span>
     Powered by 
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &

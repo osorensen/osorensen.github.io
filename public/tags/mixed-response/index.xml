@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Mixed Response on Øystein Sørensen</title>
-    <link>http://localhost:1313/tags/mixed-response/</link>
+    <link>https://osorensen.github.io/tags/mixed-response/</link>
     <description>Recent content in Mixed Response on Øystein Sørensen</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <lastBuildDate>Fri, 12 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/mixed-response/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://osorensen.github.io/tags/mixed-response/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Multilevel Semiparametric Latent Variable Modeling in R with &#34;galamm&#34;</title>
-      <link>http://localhost:1313/papers/paper10/</link>
+      <link>https://osorensen.github.io/papers/paper10/</link>
       <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/papers/paper10/</guid>
+      <guid>https://osorensen.github.io/papers/paper10/</guid>
       <description>This paper presents the R package &amp;#34;galamm&amp;#34;, which contains open-source implementations for generalized additive latent and mixed models (GALAMMs). Published in Multivariate Behavioral Research.</description>
     </item>
     <item>
       <title>Longitudinal Modeling of Age-Dependent Latent Traits with Generalized Additive Latent and Mixed Models</title>
-      <link>http://localhost:1313/papers/paper9/</link>
+      <link>https://osorensen.github.io/papers/paper9/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/papers/paper9/</guid>
+      <guid>https://osorensen.github.io/papers/paper9/</guid>
       <description>This paper was motivated by the need to use flexible spline models to model how cognitive abilities change with age, and investigating how changes in abilities in certain cognitive domains can be explained by changes in the brain. To this end we developed a framework called Generalized Additive Latent and Mixed Models (GALAMM), combining generalized additive mixed models, structural equation modeling, and mxied effect modeling. We also propose algorithms for estimating the models, using sparse matrix methods and automatic differentation. Published in Psychometrika.</description>
     </item>
   </channel>
