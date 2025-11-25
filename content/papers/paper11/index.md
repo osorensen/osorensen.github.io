@@ -17,7 +17,7 @@ cover:
     relative: false
 editPost:
     URL: "https://doi.org/10.1214/25-BA1564"
-    Text: "arXiv preprint"
+    Text: "Bayesian Analysis"
 
 ---
 
