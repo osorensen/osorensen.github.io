@@ -1,0 +1,130 @@
+{{ define "main" }}
+<section class="hero section-pad">
+  <div class="container hero__grid">
+    <div class="hero__copy">
+      <p class="eyebrow">{{ site.Params.role }}</p>
+      <h1>{{ site.Title }}</h1>
+      <p class="lead">{{ site.Params.affiliation }}</p>
+      <div class="profile-text">
+        {{ with resources.Get "profile_subtitle.md" }}{{ .Content | markdownify }}{{ end }}
+      </div>
+      <div class="button-row">
+        <a class="button" href="{{ "papers/" | relURL }}">Publications</a>
+        <a class="button button--secondary" href="{{ "software/" | relURL }}">Software</a>
+        <a class="button button--secondary" href="{{ "cv.pdf" | relURL }}">CV</a>
+      </div>
+    </div>
+    <div class="hero__media">
+      <img src="{{ site.Params.profileImage | default "picture.jpeg" | relURL }}" alt="{{ site.Title }}">
+      <div class="hero__note">
+        <strong>Research focus</strong>
+        <span>Bayesian computation, hierarchical models, intensive longitudinal data, personalized medicine.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="research" class="home-section">
+  <div class="container">
+    <div class="section-heading">
+      <p class="eyebrow">Research</p>
+      <h2>Research Themes</h2>
+    </div>
+    <div class="theme-grid">
+      {{ range site.Data.home.research_themes }}
+      <article class="theme-card">
+        <h3>{{ .title }}</h3>
+        <p>{{ .text }}</p>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section id="publications" class="home-section home-section--tinted">
+  <div class="container">
+    <div class="section-heading section-heading--split">
+      <div>
+        <p class="eyebrow">Publications</p>
+        <h2>Selected Publications</h2>
+      </div>
+      <a class="text-link" href="{{ "papers/" | relURL }}">All publications</a>
+    </div>
+    <div class="item-list">
+      {{ range first 5 (sort (where site.RegularPages "Section" "papers") "Date" "desc") }}
+      {{ $external := .Param "editPost" }}
+      <article class="research-item">
+        <div class="research-item__date">{{ .Date.Format "2006" }}</div>
+        <div>
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          {{ with .Params.author }}<p class="byline">{{ delimit . ", " }}</p>{{ end }}
+          <p>{{ .Params.description | default .Summary }}</p>
+          <div class="inline-actions">
+            <a href="{{ .RelPermalink }}">Details</a>
+            {{ with $external }}{{ with .URL }}<a href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ $external.Text | default "Publication link" }}</a>{{ end }}{{ end }}
+          </div>
+        </div>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section id="software" class="home-section">
+  <div class="container">
+    <div class="section-heading section-heading--split">
+      <div>
+        <p class="eyebrow">Software</p>
+        <h2>Open-Source Software</h2>
+      </div>
+      <a class="text-link" href="{{ "software/" | relURL }}">All software</a>
+    </div>
+    <div class="software-grid">
+      {{ range first 4 (sort (where site.RegularPages "Section" "software") "Date" "desc") }}
+      {{ $external := .Param "editPost" }}
+      <article class="software-card">
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <p>{{ .Params.description | default .Summary }}</p>
+        <div class="inline-actions">
+          <a href="{{ .RelPermalink }}">Details</a>
+          {{ with $external }}{{ with .URL }}<a href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ $external.Text | default "Package link" }}</a>{{ end }}{{ end }}
+        </div>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section id="teaching" class="home-section">
+  <div class="container two-column">
+    <div class="section-heading">
+      <p class="eyebrow">Teaching</p>
+      <h2>Teaching</h2>
+    </div>
+    <div class="prose">
+      {{ with site.GetPage "courses" }}
+      {{ .Content }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="home-section home-section--contact">
+  <div class="container two-column">
+    <div class="section-heading">
+      <p class="eyebrow">Contact</p>
+      <h2>Contact</h2>
+    </div>
+    <div class="contact-block">
+      <p><strong>Email:</strong> <a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a></p>
+      <p><strong>Office:</strong> {{ site.Data.home.contact.office }}<br>{{ site.Data.home.contact.city }}</p>
+      <div class="inline-actions">
+        {{ range site.Params.socialIcons }}
+        {{ $url := .url | default .URL }}
+        <a href="{{ $url }}"{{ if hasPrefix $url "http" }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ .name | default .Name }}</a>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
