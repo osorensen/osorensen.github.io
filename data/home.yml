@@ -1,0 +1,16 @@
+research_themes:
+  # TODO: Refine these research themes and descriptions to match current group priorities.
+  - title: Ecological momentary assessment
+    text: Statistical models for intensive longitudinal data, dynamic structural equation models, and latent processes in psychology.
+  - title: Computational statistics for complex models
+    text: Efficient algorithms using state-space representations, sparse matrix methods, automatic differentiation, and Bayesian computation.
+  - title: Generalized additive latent and mixed models
+    text: Semiparametric methods for nonlinear trajectories, mixed response data, and multilevel psychological measurement.
+  - title: Preference learning and ranking data
+    text: Bayesian models and sequential Monte Carlo methods for rankings, pairwise preferences, and partial order data.
+  - title: Machine learning in clinical psychology
+    text: Explainable personalized predictions.
+
+contact:
+  office: Department of Psychology, University of Oslo
+  city: Oslo, Norway

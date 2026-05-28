@@ -1,6 +1,5 @@
 baseURL: "https://osorensen.github.io" 
 title: Øystein Sørensen
-theme: PaperMod
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -10,15 +9,24 @@ taxonomies:
 
 menu:
     main:
+        - name: Home
+          url: /
+          weight: 1
+        - name: Research
+          url: /#research
+          weight: 2
+        - name: Publications
+          url: papers/
+          weight: 3
         - name: Software
           url: software/
-          weight: 2
-        - name: Papers
-          url: papers/
-          weight: 1
+          weight: 4
         - name: Courses
           url: courses/
-          weight: 3                
+          weight: 6
+        - name: Contact
+          url: /#contact
+          weight: 7
 
 params:
     description: |
@@ -28,6 +36,10 @@ params:
         I also work on interpretable machine learning methods, and through various collaborations
         I am involved in a range of applied projects in psychology and neuroscience.
     author: Øystein Sørensen
+    role: Professor of Statistics
+    affiliation: Department of Psychology, University of Oslo
+    email: oystein.sorensen@psykologi.uio.no
+    profileImage: picture.jpeg
     DateFormat: "January 2006"
     defaultTheme: light
     hideFooter: false
@@ -75,7 +87,7 @@ params:
         - name: GitHub
           url: https://github.com/osorensen
         - name: LinkedIn
-          url: www.linkedin.com/in/øystein-sørensen-4b487626b
+          url: https://www.linkedin.com/in/øystein-sørensen-4b487626b
         - name: Bluesky
           url: https://bsky.app/profile/osorensen.bsky.social
 
