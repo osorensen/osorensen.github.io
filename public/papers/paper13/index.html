@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Gaining Brain Insights by Tapping into the Black Box: Linking Structural MRI Features to Age and Cognition using Shapley-Based Interpretation Methods | Øystein Sørensen</title>
+<meta name="description" content="This paper evaluates multiple interpretability techniques for machine learning models applied to neuroimaging data, including SHAP and SAGE. We trained XGBoost models to predict age and fluid intelligence using UK Biobank data and found that subcortical mean intensities are associated with brain aging, while fluid intelligence prediction is driven by the hippocampus and cerebellum. Published in Neuroinformatics.">
+<meta name="author" content="Øystein Sørensen">
+<link rel="canonical" href="https://osorensen.github.io/papers/paper13/">
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#ffffff">
+
+<link rel="stylesheet" href="/css/site.min.812bcfb9b8f3d63242b652e0d5dcbed3b45a06c0e6a554aad148c36ea227abd5.css" integrity="sha256-gSvPubjz1jJCtlLg1dy&#43;07RaBsDmpVSq0UjDbqInq9U=">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" integrity="sha384-wcIxkf4k558AjM3Yz3BBFQUbk/zgIYC2R0QpeeYb+TwlBVMrlgLqwRjRtGZiK7ww" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js" integrity="sha384-hIoBPJpTUs74ddyc4bFZSM1TVlQDA60VBbJS0oA934VSz82sBx1X7kSx2ATBDIyd" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js" integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk" crossorigin="anonymous"
+  onload="renderMathInElement(document.body);"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false},
+            {left: "\\begin{equation}", right: "\\end{equation}", display: true},
+            {left: "\\begin{equation*}", right: "\\end{equation*}", display: true},
+            {left: "\\begin{align}", right: "\\end{align}", display: true},
+            {left: "\\begin{align*}", right: "\\end{align*}", display: true},
+            {left: "\\begin{alignat}", right: "\\end{alignat}", display: true},
+            {left: "\\begin{gather}", right: "\\end{gather}", display: true},
+            {left: "\\begin{CD}", right: "\\end{CD}", display: true},
+          ],
+          throwOnError : false
+        });
+    });
+</script>
+
+
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+  <div class="site-header__inner">
+    <a class="site-title" href="/">Øystein Sørensen</a>
+    <nav class="site-nav" aria-label="Main navigation">
+      
+      <a href="/">Home</a>
+      
+      <a href="/#research">Research</a>
+      
+      <a href="/papers/">Publications</a>
+      
+      <a href="/software/">Software</a>
+      
+      <a href="/courses/">Courses</a>
+      
+      <a href="/#contact">Contact</a>
+      
+    </nav>
+  </div>
+</header>
+
+  <main id="main">
+    
+<article class="single">
+  <header class="single-header">
+    <div class="container">
+      <p class="eyebrow">papers</p>
+      <h1>Gaining Brain Insights by Tapping into the Black Box: Linking Structural MRI Features to Age and Cognition using Shapley-Based Interpretation Methods</h1>
+      <div class="single-meta">
+        <span>October 2025</span>
+        <span>Julia Kropiunig, Øystein Sørensen</span>
+      </div>
+      <p class="lead">This paper evaluates multiple interpretability techniques for machine learning models applied to neuroimaging data, including SHAP and SAGE. We trained XGBoost models to predict age and fluid intelligence using UK Biobank data and found that subcortical mean intensities are associated with brain aging, while fluid intelligence prediction is driven by the hippocampus and cerebellum. Published in Neuroinformatics.</p>
+      
+      
+      <p class="single-action"><a class="button" href="https://doi.org/10.1007/s12021-025-09737-2" target="_blank" rel="noopener noreferrer">Neuroinformatics</a></p>
+      
+    </div>
+  </header>
+
+  <div class="container single-body">
+    <div class="prose">
+      <hr>
+<h5 id="download">Download</h5>
+<ul>
+<li><a href="https://doi.org/10.1007/s12021-025-09737-2" target="_blank">Paper</a></li>
+<li><a href="https://osf.io/epmgk/" target="_blank">Code and simulated data</a></li>
+</ul>
+<hr>
+<h5 id="abstract">Abstract</h5>
+<p>Global interpretability in machine learning holds great potential for extracting meaningful insights from neuroimaging data to improve our understanding of brain function. Although various approaches exist to identify key contributing features at both local and global levels, the high dimensionality and correlations in neuroimaging data require careful selection of interpretability methods to achieve reliable global insights into brain function using machine learning. In this study, we evaluate multiple interpretability techniques such as SHAP, which relies on feature independence, as well as recent advances that account for feature dependence in the context of global interpretability, and inherently global methods such as SAGE. To demonstrate the practical application, we trained XGBoost models to predict age and fluid intelligence using neuroimaging measures from the UK Biobank dataset. By applying these interpretability methods, we found that mean intensities in subcortical regions are consistently and significantly associated with brain aging, while the prediction of fluid intelligence is driven by contributions of the hippocampus and the cerebellum, alongside established regions such as the frontal and temporal lobes. These results underscore the value of interpretable machine learning methods in understanding brain function through a data-driven approach.</p>
+<hr>
+<h5 id="citation">Citation</h5>
+<p>Kropiunig, J., &amp; Sørensen, Ø. (2025). Gaining Brain Insights by Tapping into the Black Box: Linking Structural MRI Features to Age and Cognition using Shapley-Based Interpretation Methods. Neuroinformatics, 23, 52. <a href="https://doi.org/10.1007/s12021-025-09737-2" target="_blank">https://doi.org/10.1007/s12021-025-09737-2</a></p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-BibTeX" data-lang="BibTeX"><span style="display:flex;"><span><span style="color:#0a0;text-decoration:underline">@article</span>{Kropiunig2025,
+</span></span><span style="display:flex;"><span>  <span style="color:#1e90ff">title</span> = <span style="color:#a50">{Gaining Brain Insights by Tapping into the Black Box: Linking Structural MRI Features to Age and Cognition using Shapley-Based Interpretation Methods}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#1e90ff">author</span> = <span style="color:#a50">{Kropiunig, Julia and S{\o}rensen, {\O}ystein}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#1e90ff">journal</span> = <span style="color:#a50">{Neuroinformatics}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#1e90ff">volume</span> = <span style="color:#a50">{23}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#1e90ff">pages</span> = <span style="color:#a50">{52}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#1e90ff">year</span> = <span style="color:#a50">{2025}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#1e90ff">publisher</span> = <span style="color:#a50">{Springer}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#1e90ff">doi</span> = <span style="color:#a50">{10.1007/s12021-025-09737-2}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#1e90ff">URL</span> = <span style="color:#a50">{https://doi.org/10.1007/s12021-025-09737-2}</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div>
+    </div>
+    
+    <ul class="tag-list tag-list--footer">
+      <li>explainable AI</li><li>SHAP</li><li>neuroimaging</li><li>brain aging</li><li>machine learning</li><li>XGBoost</li>
+    </ul>
+    
+  </div>
+</article>
+
+  </main>
+  <footer class="site-footer">
+  <div class="site-footer__inner">
+    <p>&copy; 2026 Øystein Sørensen</p>
+    <nav aria-label="External links">
+      
+      
+      <a href="mailto:oystein.sorensen@psykologi.uio.no">Email</a>
+      
+      
+      <a href="https://scholar.google.com/citations?hl=no&amp;user=neOqbw0AAAAJ&amp;view_op=list_works&amp;sortby=pubdate" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+      
+      
+      <a href="https://github.com/osorensen" target="_blank" rel="noopener noreferrer">GitHub</a>
+      
+      
+      <a href="https://www.linkedin.com/in/%c3%b8ystein-s%c3%b8rensen-4b487626b" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      
+      
+      <a href="https://bsky.app/profile/osorensen.bsky.social" target="_blank" rel="noopener noreferrer">Bluesky</a>
+      
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>

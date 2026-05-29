@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hdme on Øystein Sørensen</title>
-    <link>http://localhost:1313/tags/hdme/</link>
+    <link>https://osorensen.github.io/tags/hdme/</link>
     <description>Recent content in Hdme on Øystein Sørensen</description>
-    <generator>Hugo -- 0.145.0</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 18 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/hdme/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://osorensen.github.io/tags/hdme/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>hdme: High-Dimensional Regression with Measurement Error</title>
-      <link>http://localhost:1313/papers/paper4/</link>
+      <link>https://osorensen.github.io/papers/paper4/</link>
       <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/papers/paper4/</guid>
-      <description>This paper presents the hdme package, implementing variable selection methods for regression with covariate measurement error.</description>
+      <guid>https://osorensen.github.io/papers/paper4/</guid>
+      <description>This paper describes the hdme R package, which provides implementation of  variable selection in the presence of measurement error. Published in Journal of Open Source Software.</description>
     </item>
     <item>
       <title>Covariate Selection in High-Dimensional Generalized Linear Models With Measurement Error</title>
-      <link>http://localhost:1313/papers/paper2/</link>
+      <link>https://osorensen.github.io/papers/paper2/</link>
       <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/papers/paper2/</guid>
-      <description>This paper proposes an extension of the generalized Dantzig selector for cases with measurement error in the predictor variables.</description>
+      <guid>https://osorensen.github.io/papers/paper2/</guid>
+      <description>The matrix uncertainty selector is a modification of the Dantzig selector, for the case of variable selection with noisy predictors. In this paper we extend the matrix uncertainty selector to the generalized linear model case, and propose a computationally efficient computational algorithm. Compared to other methods that correct for the effect of measurement error, the matrix uncertainty selector and its extension do not require a precise estimate of the noise variance, which is an advantage in practical use. Published in Journal of Computational and Graphical Statistics.</description>
     </item>
     <item>
       <title>hdme: High-Dimensional Regression with Measurement Error</title>
-      <link>http://localhost:1313/software/software3/</link>
+      <link>https://osorensen.github.io/software/software3/</link>
       <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/software/software3/</guid>
+      <guid>https://osorensen.github.io/software/software3/</guid>
       <description>This R package contains functions for fitting variable selection models in the presence of noise in the predictor variables. In particular, it supports a corrected lasso and the generalized matrix uncertainty selector. In addition, it offers an implementation of the (generalized) Dantzig selector.</description>
     </item>
     <item>
       <title>Measurement Error in Lasso: Impact and Likelihood Bias Correction</title>
-      <link>http://localhost:1313/papers/paper1/</link>
+      <link>https://osorensen.github.io/papers/paper1/</link>
       <pubDate>Wed, 01 Apr 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/papers/paper1/</guid>
-      <description>This paper analyzes the impact of covariate measurement error in the lasso method for penalized regression, and then proposes correction methods both for linear models and generalized linear models.</description>
+      <guid>https://osorensen.github.io/papers/paper1/</guid>
+      <description>This paper analyzes the impact of covariate measurement error in the lasso method for penalized regression. First, we present a result showing how the classical result for variable selection consistency breaks down in the presence of measurement error, and then we study a correction method and show how it recovers the consistent variable selection property. Finally, we consider an extension to logistic and Poisson regression. Published in Statistica Sinica.</description>
     </item>
   </channel>
 </rss>

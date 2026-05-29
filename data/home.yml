@@ -11,6 +11,12 @@ research_themes:
   - title: Machine learning in clinical psychology
     text: Explainable personalized predictions.
 
+collaborators:
+  - name: "[Ethan M. McCormick, University of Delaware](https://e-m-mccormick.github.io/)"
+  - name: "[Mechanisms of Psychopathology Group at OUS](https://ous-research.no/psychopathology)"
+  - name: "[The Research Institute at Modum Bad](https://www.modum-bad.no/forskning/)"
+  
+
 contact:
   office: Department of Psychology, University of Oslo
   city: Oslo, Norway
