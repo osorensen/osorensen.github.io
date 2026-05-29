@@ -29,7 +29,7 @@ menu:
           weight: 7
 
 params:
-    description: "Academic profile and research group homepage for Øystein Sørensen."
+    description: "Academic profile for Øystein Sørensen."
     author: Øystein Sørensen
     role: Professor of Statistics
     affiliation: Department of Psychology, University of Oslo
