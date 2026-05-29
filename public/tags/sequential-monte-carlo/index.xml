@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sequential Monte Carlo on Øystein Sørensen</title>
+    <link>https://osorensen.github.io/tags/sequential-monte-carlo/</link>
+    <description>Recent content in Sequential Monte Carlo on Øystein Sørensen</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 28 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://osorensen.github.io/tags/sequential-monte-carlo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BayesMallowsSMC2: Nested Sequential Monte Carlo for the Bayesian Mallows Model</title>
+      <link>https://osorensen.github.io/software/software6/</link>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://osorensen.github.io/software/software6/</guid>
+      <description>This R package provides nested sequential Monte Carlo algorithms for performing sequential inference in the Bayesian Mallows model.</description>
+    </item>
+  </channel>
+</rss>

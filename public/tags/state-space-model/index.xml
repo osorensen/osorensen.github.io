@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>State Space Model on Øystein Sørensen</title>
+    <link>https://osorensen.github.io/tags/state-space-model/</link>
+    <description>Recent content in State Space Model on Øystein Sørensen</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 05 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://osorensen.github.io/tags/state-space-model/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Efficient Bayesian Estimation of Dynamic Structural Equation Models via State Space Marginalization</title>
+      <link>https://osorensen.github.io/papers/paper14/</link>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://osorensen.github.io/papers/paper14/</guid>
+      <description>This paper shows that the within-level part of any dynamic structural equation model can be reformulated as a linear Gaussian state space model. Consequently, the latent states can be analytically marginalized using a Kalman filter, allowing for highly efficient estimation via Hamiltonian Monte Carlo. This makes DSEM estimation computationally tractable for much larger datasets than what has been previously possible. arXiv preprint.</description>
+    </item>
+  </channel>
+</rss>

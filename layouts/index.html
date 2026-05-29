@@ -38,6 +38,14 @@
       </article>
       {{ end }}
     </div>
+    <div class="section-heading section-heading--subsection">
+      <h2>Main Collaborators</h2>
+    </div>
+    <ul class="collaborator-list">
+      {{ range site.Data.home.collaborators }}
+      <li>{{ .name | markdownify }}</li>
+      {{ end }}
+    </ul>
   </div>
 </section>
 

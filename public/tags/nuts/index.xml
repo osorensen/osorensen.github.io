@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NUTS on Øystein Sørensen</title>
+    <link>https://osorensen.github.io/tags/nuts/</link>
+    <description>Recent content in NUTS on Øystein Sørensen</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://osorensen.github.io/tags/nuts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Hybrid NUTS-Gibbs Sampler with State Space Marginalization for Estimation of Dynamic Structural Equation Models with Binomial Outcomes</title>
+      <link>https://osorensen.github.io/papers/paper16/</link>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://osorensen.github.io/papers/paper16/</guid>
+      <description>This paper presents a hybrid sampler &amp;ndash; alternating between one step of the No-U-Turn Sampler (NUTS) and one Gibbs step &amp;ndash; for estimating dynamic structural equation models with binomial outcomes. The Gibbs step handles Pólya-Gamma distributed latent variables arising from a logit link, and the NUTS step uses a Kalman filter to marginalize over latent states. We demonstrate that the proposed sampler makes DSEM estimation with binomial data feasible for larger data and models than previously possible. arXiv preprint.</description>
+    </item>
+  </channel>
+</rss>
