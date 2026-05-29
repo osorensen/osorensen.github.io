@@ -29,12 +29,7 @@ menu:
           weight: 7
 
 params:
-    description: |
-        I am a Professor of Statistics in the Department of Psychology at the University of Oslo, Norway.
-        I am interested in latent variable models for analysis of longitudinal data in psychology,
-        particularly on developing efficient computational algorithms and software.
-        I also work on interpretable machine learning methods, and through various collaborations
-        I am involved in a range of applied projects in psychology and neuroscience.
+    description: "Academic profile and research group homepage for Øystein Sørensen."
     author: Øystein Sørensen
     role: Professor of Statistics
     affiliation: Department of Psychology, University of Oslo
