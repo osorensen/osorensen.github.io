@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Machine Learning on Øystein Sørensen</title>
-    <link>https://osorensen.github.io/tags/machine-learning/</link>
+    <link>https://osorensen.no/tags/machine-learning/</link>
     <description>Recent content in Machine Learning on Øystein Sørensen</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 22 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://osorensen.github.io/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://osorensen.no/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gaining Brain Insights by Tapping into the Black Box: Linking Structural MRI Features to Age and Cognition using Shapley-Based Interpretation Methods</title>
-      <link>https://osorensen.github.io/papers/paper13/</link>
+      <link>https://osorensen.no/papers/paper13/</link>
       <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/papers/paper13/</guid>
+      <guid>https://osorensen.no/papers/paper13/</guid>
       <description>This paper evaluates multiple interpretability techniques for machine learning models applied to neuroimaging data, including SHAP and SAGE. We trained XGBoost models to predict age and fluid intelligence using UK Biobank data and found that subcortical mean intensities are associated with brain aging, while fluid intelligence prediction is driven by the hippocampus and cerebellum. Published in Neuroinformatics.</description>
     </item>
   </channel>

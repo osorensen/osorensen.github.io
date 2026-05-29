@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Courses on Øystein Sørensen</title>
-    <link>https://osorensen.github.io/courses/</link>
+    <link>https://osorensen.no/courses/</link>
     <description>Recent content in Courses on Øystein Sørensen</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="https://osorensen.github.io/courses/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://osorensen.no/courses/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

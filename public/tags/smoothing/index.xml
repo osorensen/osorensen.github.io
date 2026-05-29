@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Smoothing on Øystein Sørensen</title>
-    <link>https://osorensen.github.io/tags/smoothing/</link>
+    <link>https://osorensen.no/tags/smoothing/</link>
     <description>Recent content in Smoothing on Øystein Sørensen</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 12 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://osorensen.github.io/tags/smoothing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://osorensen.no/tags/smoothing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Modeling Cycles, Trends and Time-Varying Effects in Dynamic Structural Equation Models with Regression Splines</title>
-      <link>https://osorensen.github.io/papers/paper12/</link>
+      <link>https://osorensen.no/papers/paper12/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/papers/paper12/</guid>
+      <guid>https://osorensen.no/papers/paper12/</guid>
       <description>Dynamic structural equation models have become extremely popular for analysis of intensive longitudinal data in the social sciences. One outstanding problem is how to handle nonlinear trends and cycles, and in this paper we propose to do this in a very flexible manner using regression splines. We test the methods in simulation studies, and then illustrate them by analyzing a diary data set on alcohol consumption and stress. Open-source Stan code is available from our OSF repository. Published in Multivariate Behavioral Research.</description>
     </item>
   </channel>

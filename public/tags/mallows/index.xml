@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mallows on Øystein Sørensen</title>
-    <link>https://osorensen.github.io/tags/mallows/</link>
+    <link>https://osorensen.no/tags/mallows/</link>
     <description>Recent content in Mallows on Øystein Sørensen</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 18 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://osorensen.github.io/tags/mallows/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://osorensen.no/tags/mallows/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Probabilistic preference learning with the Mallows rank model</title>
-      <link>https://osorensen.github.io/papers/paper3/</link>
+      <link>https://osorensen.no/papers/paper3/</link>
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/papers/paper3/</guid>
+      <guid>https://osorensen.no/papers/paper3/</guid>
       <description>This paper studies the analysis of rank and preference data. We consider both complete rankings, partial rankings, and pairwise preferences. We develop a complete Bayesian framework for estimating Mallows&amp;rsquo; rank model in all this cases, including clustering of users with similar preferences and preference prediction. Published in Journal of Machine Learning Research. Joint first authorship with Valeria Vitelli.</description>
     </item>
   </channel>

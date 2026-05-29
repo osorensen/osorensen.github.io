@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nonlinear Mixed Effects on Øystein Sørensen</title>
-    <link>https://osorensen.github.io/tags/nonlinear-mixed-effects/</link>
+    <link>https://osorensen.no/tags/nonlinear-mixed-effects/</link>
     <description>Recent content in Nonlinear Mixed Effects on Øystein Sørensen</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sat, 14 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://osorensen.github.io/tags/nonlinear-mixed-effects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://osorensen.no/tags/nonlinear-mixed-effects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Semiparametric Nonlinear Mixed Effects Model with Penalized Splines Using Automatic Differentiation</title>
-      <link>https://osorensen.github.io/papers/paper15/</link>
+      <link>https://osorensen.no/papers/paper15/</link>
       <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/papers/paper15/</guid>
+      <guid>https://osorensen.no/papers/paper15/</guid>
       <description>We present an estimation procedure for nonlinear mixed-effects models in which the population trajectory is represented by penalized splines and adapted to individuals via subject-specific transformation parameters. By exploiting the mixed model representation of penalized splines, the level of smoothness can be estimated jointly with other variance components. The approach is illustrated through a case study on infant height growth. arXiv preprint.</description>
     </item>
   </channel>

@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kalman Filter on Øystein Sørensen</title>
-    <link>https://osorensen.github.io/tags/kalman-filter/</link>
+    <link>https://osorensen.no/tags/kalman-filter/</link>
     <description>Recent content in Kalman Filter on Øystein Sørensen</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 25 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://osorensen.github.io/tags/kalman-filter/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://osorensen.no/tags/kalman-filter/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Hybrid NUTS-Gibbs Sampler with State Space Marginalization for Estimation of Dynamic Structural Equation Models with Binomial Outcomes</title>
-      <link>https://osorensen.github.io/papers/paper16/</link>
+      <link>https://osorensen.no/papers/paper16/</link>
       <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/papers/paper16/</guid>
+      <guid>https://osorensen.no/papers/paper16/</guid>
       <description>This paper presents a hybrid sampler &amp;ndash; alternating between one step of the No-U-Turn Sampler (NUTS) and one Gibbs step &amp;ndash; for estimating dynamic structural equation models with binomial outcomes. The Gibbs step handles Pólya-Gamma distributed latent variables arising from a logit link, and the NUTS step uses a Kalman filter to marginalize over latent states. We demonstrate that the proposed sampler makes DSEM estimation with binomial data feasible for larger data and models than previously possible. arXiv preprint.</description>
     </item>
     <item>
       <title>Efficient Bayesian Estimation of Dynamic Structural Equation Models via State Space Marginalization</title>
-      <link>https://osorensen.github.io/papers/paper14/</link>
+      <link>https://osorensen.no/papers/paper14/</link>
       <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://osorensen.github.io/papers/paper14/</guid>
+      <guid>https://osorensen.no/papers/paper14/</guid>
       <description>This paper shows that the within-level part of any dynamic structural equation model can be reformulated as a linear Gaussian state space model. Consequently, the latent states can be analytically marginalized using a Kalman filter, allowing for highly efficient estimation via Hamiltonian Monte Carlo. This makes DSEM estimation computationally tractable for much larger datasets than what has been previously possible. arXiv preprint.</description>
     </item>
   </channel>
